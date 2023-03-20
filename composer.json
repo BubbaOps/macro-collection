@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "bubbaops/macro-collection",
+    "description": "A collection of macros for Collections.",
     "keywords": [
-        ":vendor_name",
+        "BubbaOps",
         "laravel",
-        ":package_slug"
+        "macro-collection"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/bubbaops/macro-collection",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Bubba Hines",
+            "email": "bubba@stechstudio.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "BubbaOps\\MacroCollection\\": "src",
+            "BubbaOps\\MacroCollection\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "BubbaOps\\MacroCollection\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "BubbaOps\\MacroCollection\\MacroCollectionServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "MacroCollection": "BubbaOps\\MacroCollection\\Facades\\MacroCollection"
             }
         }
     },

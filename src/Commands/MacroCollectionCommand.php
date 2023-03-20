@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace BubbaOps\MacroCollection\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class MacroCollectionCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'macro-collection';
 
     public $description = 'My command';
 
