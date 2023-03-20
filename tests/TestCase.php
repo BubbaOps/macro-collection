@@ -2,9 +2,9 @@
 
 namespace BubbaOps\MacroCollection\Tests;
 
+use BubbaOps\MacroCollection\MacroCollectionServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use BubbaOps\MacroCollection\MacroCollectionServiceProvider;
 
 class TestCase extends Orchestra
 {

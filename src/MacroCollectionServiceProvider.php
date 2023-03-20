@@ -2,9 +2,9 @@
 
 namespace BubbaOps\MacroCollection;
 
+use BubbaOps\MacroCollection\Commands\MacroCollectionCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use BubbaOps\MacroCollection\Commands\MacroCollectionCommand;
 
 class MacroCollectionServiceProvider extends PackageServiceProvider
 {
